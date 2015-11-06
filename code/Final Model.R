@@ -10,12 +10,11 @@ library(e1071)
 library(caret) ##confusion matrix
 library(lattice)
 library(spdep)
-setwd("D:/Courses/UC Berkeley/Fall 2015/Statistical Models Theory and Application/Lab/Lab4/lab")
 load('embryo_data.Rda')
 load('embryo_imgs.Rda')
 source('./utils.R')
 
-############AT this stage, read in finaldata.csv which contains all the infomration and fiji features
+############AT this stage, read in Final_data.csv which contains all the infomration and fiji features
 
 data<-read.csv("finaldata.csv",header=T) ##train+test+fiji features
 data$label_pred<-0 ##build a fake label for later testing
