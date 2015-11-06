@@ -8,14 +8,14 @@
 * Bash "git clone https://github.com/kuancheng/STAT215A-LAB4.git"
 
 #####  2. Install ipython notebook
-* Install Anaconda Scientific Package if you don't have  iPython notebook
+* Install Anaconda Scientific Package if you don't have  iPython notebook (one easy way to do it)
 
 #####  3. Exploratory data Analysis
-* go to "code" folder in your cloned repository
-* copy embryo_data.Rda and embryo_imgs.Rda into code folder
-* copy raw_fiji folder into code folder
-* read in embryo_data.Rda 
-* read in embryo_imgs.Rda
+* Go to "code" folder in your cloned repository
+* Copy embryo_data.Rda and embryo_imgs.Rda into code folder
+* Copy raw_fiji folder into code folder
+* Read in embryo_data.Rda 
+* Read in embryo_imgs.Rda
 * Run lab4_eda.R file to reproduce the EDA figures
 * Run proccessing_data.R to extract fiji features to a unified CSV (7.5 GB is needed)
 * Run Random_Forest_Features_Proccessing.ipynb to generate the super pixel Fiji features as a csv 'All_Features.csv' will be generated (~ 5 MBs)
