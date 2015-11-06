@@ -1,5 +1,4 @@
 library(R.matlab)
-setwd("/Users/fadikfoury/Downloads/Lab4/lab")
 fiji.directory <- './raw_fiji/'
 
 #col: embryoID (1), super_pixel_id(2), x,y(4),  figi(16)
@@ -41,7 +40,6 @@ for (embryo_id in 1:170)
   
   print(paste("Finished" ,embryo_id,"Embryo") )
 }
-setwd("/Users/fadikfoury/Downloads/Lab4/lab")
 fiji.directory <- './raw_fiji/'
 mat.data <- readMat(paste0(fiji.directory, paste("emb",1,".mat", sep = "") ))
 
