@@ -16,7 +16,7 @@ source('./utils.R')
 
 ############AT this stage, read in Final_data.csv which contains all the infomration and fiji features
 
-data<-read.csv("finaldata.csv",header=T) ##train+test+fiji features
+data<-read.csv("Final_data.csv",header=T) ##train+test+fiji features
 data$label_pred<-0 ##build a fake label for later testing
 id <- sum(num.sp[1:150]) ##after load embryo_data.Rda, you will have this num.sp
 train<-data[1:id,]
