@@ -1,5 +1,5 @@
 
-# Training and Running the final model
+# Training and Running the Final Model
 * Make sure that the All_Features.csv file is in the same directory as your code
 * Run the R file 'Final_Model.R' 
 
@@ -7,10 +7,10 @@
 #####  1. Create a repository
 * Bash "git clone https://github.com/kuancheng/STAT215A-LAB4.git"
 
-#####  2. Install ipython notebook
+#####  2. Install iPython notebook
 * Install Anaconda Scientific Package if you don't have  iPython notebook (one easy way to do it)
 
-#####  3. Exploratory data Analysis
+#####  3. Running the code
 * Go to "code" folder in your cloned repository
 * Copy embryo_data.Rda and embryo_imgs.Rda into code folder
 * Copy raw_fiji folder into code folder
