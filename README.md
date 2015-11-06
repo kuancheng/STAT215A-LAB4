@@ -21,4 +21,5 @@
 * Run Random_Forest_Features_Proccessing.ipynb to generate the super pixel Fiji features as a csv 'All_Features.csv' will be generated (~ 5 MBs)
 * Run 'Lab_4.ipynb' to reproduce features selection, model tunning(SVM, Random Forest), and model selection (ROC curves for RF and KNN)
 * Run 'Lab_4_2.R' to reproduce KNN and weighted KNN models tunning, need to read in Final_data.csv
+* Run 'Final Model.R' to reproduce KNN performance on test set, need to read in Final_data.csv
 
