@@ -7,9 +7,9 @@ library(rgl)
 library(ggbiplot)
 library(moments)
 library(reshape2)
-load('../lab/embryo_data.Rda')
-load('../lab/embryo_imgs.Rda')
-source('../lab/utils.R')
+load('embryo_data.Rda')
+load('embryo_imgs.Rda')
+source('utils.R')
 
 fiji.directory <- '../lab/raw_fiji/'
 
@@ -331,7 +331,6 @@ plot(density(match.vec), main = "", xlab = "percentage match between super pixel
 diff.percent.mat <- sweep(diff.mat[, -1], 1, apply(diff.mat[, -1], 1, sum), FUN = "/")
 diff.percent.df <- data.frame(diff.percent.mat)
 names(diff.percent.df) <- c("0x1", "1x2","0x2", "2x3", "1x3", "0x3")
-write.csv(diff.percent.df, "diff.percent.df.csv", row.names = F)
 
 #melt the data in order to plot density plots
 val.vec <- as.numeric(diff.percent.mat)
