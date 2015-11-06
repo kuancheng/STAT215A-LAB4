@@ -4,7 +4,7 @@
 * Run the R file 'Final_Model.R' 
 
 # Reproduce Report Figures and results (Python and R needed)
-#####  1. Create a repository
+#####  1. Cloning the repository
 * Bash "git clone https://github.com/kuancheng/STAT215A-LAB4.git"
 
 #####  2. Install iPython notebook
