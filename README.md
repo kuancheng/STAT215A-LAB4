@@ -1,6 +1,6 @@
 
 # Training and Running the Final Model
-* Make sure that the All_Features.csv file is in the same directory as your code
+* Make sure that the FinalData.csv file is in the same directory as your code
 * Run the R file 'Final_Model.R' 
 
 # Reproduce Report Figures and results (Python and R needed)
