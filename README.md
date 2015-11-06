@@ -1,8 +1,10 @@
 # Reproduce Step
 #####  1. Create a repository
 * type in terminal "git clone https://github.com/kuancheng/STAT215A-LAB4.git"
+
 #####  2. Install ipython notebook
 * install Anaconda if you don't have ipython and ipython notebook
+
 #####  3. Exploratory data Analysis
 * go to "code" folder in your cloned repository
 * open lab4_eda.R file 
